@@ -1,0 +1,100 @@
+    header {
+      text-align: center;
+      background: url("header_background9.png");
+      position: relative;
+      background-repeat: repeat-x;
+      border-radius: 12px;
+    }
+    .logo {
+      height: 250px;
+      width: 640px;
+      margin: 40px 0px 0px 0px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+      bottom: 0;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    a {
+      font-family: helvetica;
+      color: white;
+    }
+    @media (max-width: 700px) {
+      img {
+        height: 150px;
+        width: 384px;
+        margin: 10px 0px 0px 0px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+    body {
+      background: #FAC7CC;
+    }
+    h1 {
+      font-family: helvetica;
+      font-size: 17px;
+      margin: 0px 0px 6px 0px;
+    }
+    legend {
+      font-family: helvetica;
+      font-size: 16px;
+    }
+    p {
+      font-family: helvetica;
+      font-size: 15px;
+    }
+    div {
+      background: white;
+      border-radius: 12px;
+      padding: 13px;
+    }
+    .one {
+      float: right;
+      width: 400px;
+    }
+    .two {
+      margin-right: 450px;
+    }
+    .three {
+      margin-right: 450px;
+    }
+    .four {
+      margin-right: 450px;
+    }
+    fieldset {
+      padding:10px;
+    }
+    button {
+      font-family: helvetica;
+      font-size: 13px;
+      background-color: #E7E6E6; 
+    }
+    .message {
+      display: inline-block;
+      width: 550px;
+      font-size: 14px;
+      color: grey;
+      vertical-align: top;
+      padding-bottom: 250px;
+    }
+    input {
+      display: inline-block;
+      width: 250px;
+      font-size: 14px;
+      color: grey;
+    }
+    label{
+      display: inline-block;
+      width: 100px;
+    }
+    .pictures {
+      width: 600px;
+      margin: 10px 0px 0px 0px;
+    }
